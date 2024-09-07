@@ -3,7 +3,7 @@ import React from "react";
 const App = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/documents/resume.pdf";
+    link.href = "/portfolio/documents/resume.pdf";
     link.download = "Hanzalahs_Resume.pdf";
     link.click();
   };
@@ -16,7 +16,7 @@ const App = () => {
         <a href="mailto:sayhi.hanzla@gmail.com">
           <strong>Hanzalah's</strong>
         </a>{" "}
-        portfolio! I am a first-year <strong>Artificial Intelligence</strong>{" "}
+        portfolio! I am a second-year <strong>Artificial Intelligence</strong>{" "}
         student at Islamia University Bahawalpur. (Not sponsored by my
         university, by the way.)
       </p>
